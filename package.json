@@ -1,0 +1,28 @@
+{
+  "name": "angular-deep-scope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngc": "ngc",
+    "build": "webpack-cli --config webpack.config.js",
+    "serve": "webpack-serve --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^6.1.6",
+    "@angular/compiler": "^6.1.6",
+    "@angular/compiler-cli": "^6.1.6",
+    "@angular/core": "^6.1.6",
+    "@angular/platform-browser": "^6.1.6",
+    "rxjs": "^6.3.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-deep-scope-plugin": "^1.5.3",
+    "webpack-serve": "^2.0.2",
+    "zone.js": "^0.8.26"
+  }
+}
